@@ -29,6 +29,10 @@
     "url": "https://github.com/rahulagg1804/comp-library/issues"
   },
   "homepage": "http://rahulagg1804.github.io/comp-library/",
+  "dependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@rollup/plugin-commonjs": "^11.1.0",
@@ -50,9 +54,5 @@
     "rollup-plugin-typescript2": "^0.27.0",
     "sass-loader": "^8.0.2",
     "typescript": "^3.8.3"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
   }
 }

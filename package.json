@@ -1,6 +1,6 @@
 {
   "name": "comp-lib-rahul",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my library",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -52,7 +52,6 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.27.0",
-    "sass-loader": "^8.0.2",
     "typescript": "^3.8.3"
   }
 }

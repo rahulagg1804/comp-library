@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "comp-lib-rahul",
   "version": "1.0.0",
   "description": "my library",
   "main": "build/index.js",
@@ -10,18 +10,25 @@
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy:docs": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rahulagg1804/comp-library.git"
+    "url": "git+https://github.com/rahulagg1804/comp-library.git"
   },
-  "author": "",
+  "author": {
+    "name": "Rahul Aggarwal",
+    "email": "rahul.agg1804@gmail.com"
+  },
+  "keywords": [
+    "react","react-component", "toolkit"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rahulagg1804/comp-library/issues"
   },
-  "homepage": "https://github.com/rahulagg1804/comp-library#readme",
+  "homepage": "http://rahulagg1804.github.io/comp-library/",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@rollup/plugin-commonjs": "^11.1.0",
@@ -30,6 +37,8 @@
     "@types/react": "^16.9.34",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
+    "gh-pages": "^0.12.0",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.32.1",

@@ -37,7 +37,7 @@
     "@babel/core": "^7.9.6",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
-    "@storybook/react": "^5.3.18",
+    "@storybook/react": "^6.5.13",
     "@types/react": "^16.9.34",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
